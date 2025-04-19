@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro do computador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <div class="img-box">
+            <img src="/cadastro/assents/cadastro.png">
+
+        </div>
+        <div class="form-box">
+            <h2>Cadastro de Computador</h2>
+            <p>Cadastre o computador.</p>
+            <form action="#">
+                <div class="input-group">
+                    <label for="computador">Modelo</label>
+                    <input type="text" id="modelo" placeholder="Digite o modelo">
+                </div>
+                <div class="input-group">
+                    <label for="sn">Numero de Série</label>
+                    <input type="text" id="sn" placeholder="Digite o N/S">
+                </div>
+                <div class="input-group">
+                    <label for="hostname">Hostname</label>
+                    <input type="text" id="Hostname" placeholder="Digite o Hostname">
+                </div>
+                <div class="input-group">
+                    <label for="user">Usuário Responsável</label>
+                    <input type="text" id="usuario" placeholder="Digite o usuário Responsável">
+                </div>
+                <div class="input-group">
+                    <label for="tp_comp">Tag</label>
+                    <input type="text" id="tag" placeholder="Digite a Tag">
+                </div>
+                <div class="device-selection">
+                    <label for="desktop" class="device-label">
+                        <input type="radio" id="desktop" name="device" value="desktop" class="device-input"> Desktop
+                    </label>
+                    <label for="notebook" class="device-label">
+                        <input type="radio" id="notebook" name="device" value="notebook" class="device-input"> Notebook
+                    </label>
+                </div>
+                <div class="input-group">
+                    <button>Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
